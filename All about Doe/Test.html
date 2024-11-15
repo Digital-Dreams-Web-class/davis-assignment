@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <style>
+        * {
+            color: white;
+            background-color: #070d0d;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .I{
+            width: 23%;
+            /* background-color: lightblue; */
+            height: 98vh;
+            float: left;
+            border-right: 2px solid black;
+        }
+        .II{
+            width: 45%;
+            /* background-color: coral; */
+            height: 98vh;
+            float: left;
+            border-right: 2px solid black;
+        }
+        .III{
+            width: 31%;
+            /* background-color: lightgreen; */
+            height: 98vh;
+            float: left;
+        }
+        #xdiv{
+            margin-top: 5px;
+            margin-left: 25px;
+        }
+        #xicon{
+            width: 40px; 
+            height: 50px;
+        }
+        .padding-left{
+            padding-left: 25px;
+        }
+        #button1{
+            width: 230px; 
+            height: 6vh; 
+            border-radius: 20px; 
+            border-color: rgb(30, 98, 255); 
+            background-color: rgb(30, 98, 255);
+        }
+        a{
+            text-align: center; 
+            text-decoration: none;
+        }
+        #t1{
+            padding-left: 30px; 
+            padding-top: 2px; 
+            font-size: 16px;
+        }
+        #posts1{
+            padding-left: 90px; 
+            font-size: 13px; 
+            color: lightgray
+        }
+        #ipstyl{
+            width: 180px; 
+            height: 190px; 
+            border-radius: 100px; 
+            margin-top: -100px; 
+            margin-left: 15px; 
+            border: 4px solid black;
+            /* position: absolute; */
+            /* initial-value: top; */
+        }
+        #editbutton{
+            border: 3px solid black; 
+            background-color: #070d0d; 
+            border-radius: 20px; 
+            width: 120px; 
+            height: 35px; 
+            float: right; 
+            margin-top: -95px; 
+            margin-right: 15px;
+        }
+        .increasefont{
+            font-size: 18px;
+        }
+        #getverifybutton{
+            float: right; 
+            border: 3px solid black; 
+            background-color: #070d0d; 
+            border-radius: 20px; 
+            width: 160px; 
+            height: 35px; 
+            margin-top: -70px;
+            margin-right: 320px;
+        }
+        .decreasefont{
+            font-size: 15px;
+        }
+        .bluefont{
+            color: mediumblue;
+        }
+        .fontcolor{
+            color: gray;
+        }
+        .numpadding{
+            padding-left: 15px;
+        }
+        #marginbutt{
+            margin-bottom: 20px;
+        }
+        a:active{
+            color: white;
+            border-bottom: 2px solid mediumblue;
+        }
+         a:active{
+            color: dodgerblue;
+        }
+        #loadicon{
+            float: right; 
+            padding-right: 40px; 
+            margin-top: -35px;
+        }
+        #searchbutt{
+            width: 360px; 
+            background-color: black; 
+            border: 2px solid black; 
+            height: 40px; 
+            border-radius: 20px; 
+            margin-top: 5px; 
+            margin-left: 35px;
+        }
+        #searchfloat{
+            float: left;
+        }
+        .youmightlike{
+            border: 3px solid black; 
+            border-radius: 20px; 
+            width: 340px; 
+            height: 300px; 
+            margin-top: 15px; 
+            margin-left: 35px;
+        }
+        #youmightlike{
+            font-size: 24px; 
+            margin-top: 8px;
+        }
+        .followbutton{
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 100px;
+            height: 35px;
+            margin-left: 120px;
+            margin-bottom: 10px;
+                
+        }
+        .followstyle{
+            color: black; 
+            font-weight: bold;
+            background-color: white;
+        }
+        #followbuttmargleft1{
+            margin-left: 120px;
+        }
+        #followbuttmargleft2{
+            margin-left: 125px;
+        }
+        #showmargintop{
+            margin-top: -18px;
+        }
+        #youmightlike2{
+            border: 3px solid black; 
+            border-radius: 20px; 
+            width: 340px; 
+            height: 328px; 
+            margin-top: 15px; 
+            margin-left: 35px;
+        }
+        #youmightlike3{
+            border: 3px solid black; 
+            border-radius: 20px; 
+            width: 340px; 
+            height: 90px; 
+            margin-top: -95px; 
+            margin-left: 80px;
+        }
+        .musicmargtop{
+            margin-top: 30px;
+        }
+        .piccomargtop{
+            margin-top: -30px;
+        }
+        #exhausted{
+            background-color:  rgb(30, 98, 255)
+        }
+    </style> 
+ </head>
+<body>
+    <div>
+        <div class="I" >
+            <div id="xdiv">
+                <i class="fa-brands fa-x-twitter" id="xicon"></i>
+            </div><br>
+            <div class="padding-left">
+                <img src="" alt=""><a class="padding-topbuttom increasefont">Home</a><br><br><br>
+                <img src="" alt=""><a class="padding-topbuttom increasefont">Explore</a><br><br><br>
+                <img src="" alt=""><a class="padding-topbuttom increasefont">Notifications</a><br><br><br>
+                <img src="" alt=""><a class="padding-topbuttom increasefont">Messages</a><br><br><br>
+                <img src="" alt=""><a class="padding-topbuttom increasefont">Grok</a><br><br><br>
+                <img src="" alt=""><a class="padding-topbuttom increasefont">Profile</a><br><br><br>
+                <img src="" alt=""><a class="padding-topbuttom increasefont">More</a>
+            </div><br><br>
+            <div class="padding-left"><button id="button1"><a href="#" id="exhausted">Post</a></button></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="padding-left"><img src="" alt=""><span>Tame<br>@Tame_Nation</span><img src="" alt="More"></div>
+      
+            
+            
+        </div>
+        <div class="II">
+            <div style="height: 40px; background-color: black;" class="padding-left">
+              <img src="" alt="arrow" style="padding-left: 5px; "><span id="t1">Tame</span><br><span id="posts1">4,508 posts</span>
+            </div>
+            <div style="background-image: url(work.jpg); height: 35vh;" class="padding-left">
+            </div>
+            <img src="Ipsum.jpg" alt="float to background-image" id="ipstyl"><br>        <button id="editbutton">Edit profile</button>
+            <div class="padding-left">
+               <p class="increasefont">Tame<br><span class="fontcolor"><span class="decreasefont">@Tame_Nation</span></span></p>   <button id="getverifybutton"><img src="" alt="">Get Verified</button>
+            </div>
+            <p class="padding-left">Lowkey chill. Lagos born techie<img src="" alt="Nigeria flag">
+               blockchain developer. Just vibez.<span class="bluefont"> #F1 </span>twitter</p>
+            <div class="padding-left"><img src="" alt=""><span class="fontcolor">The metaverse </span> <img src="" alt=""><span class="fontcolor numpadding">Joined August 2019</span></div><br>
+            <div class="padding-left"><span>420<span class="fontcolor">Following</span><span class="numpadding">415<span class="fontcolor">Followers</span></div>
+            <br>
+            <br>
+            <div id="marginbutt">
+            <left-nav class="padding-left">
+              <a href="" style="padding-right: 53px;" class="increasefont fontcolor"> Posts</a>
+              <a href="" style="padding-right: 53px;" class="increasefont fontcolor">Replies</a>
+              <a href="" style="padding-right: 53px;" class="increasefont fontcolor">Highlights</a>
+              <a href="" style="padding-right: 53px;" class="increasefont fontcolor">Articles</a>
+              <a href="" style="padding-right: 53px;" class="increasefont fontcolor">Media</a>
+              <a href="" style="padding-right: 53px;" class="increasefont fontcolor">Likes</a>
+            </left-nav>
+            </div>
+            <div style="border-bottom: 2px solid black; " class="padding-left"></div><br>
+              <img src="" alt="" class="padding-left" style="padding-left: 60px;"><span>You reposted</span>
+            
+            <p class="padding-left" style="padding-left: 60px;">culture jpeg<span style="color: gray;">@culturejpg . Sep 29</span></p>
+            <img src="" alt="loading icon" id="loadicon">
+            
+            
+            
+        </div>
+        <div class="III">
+            <button class="padding-left increasefont" id="searchbutt">
+            <img src="" alt=""><span class="fontcolor" id="searchfloat">Search</span>
+            </button>
+            <div class="padding-left youmightlike">
+            <p id="youmightlike">You might like</p>
+            <div><img src="" alt=""><span class="increasefont">James Lucas<img src="" alt=""><br><span class="fontcolor decreasefont">@jameslucasIT</span></span><button class="followbutton"><span class="decreasefont followstyle">Follow</span></button></div>
+            <div><img src="" alt=""><span class="increasefont">The Debut Hub<img src="" alt=""><br><span class="fontcolor decreasefont">@thedebuthub</span></span><button class="followbutton" id="followbuttmargleft1"><span class="decreasefont followstyle">Follow</span></button></div>
+            <div><img src="" alt=""><span class="increasefont">Motorsport.com<img src="" alt=""><br><span class="fontcolor decreasefont">@Motorsport</span></span><button class="followbutton" id="followbuttmargleft2"><span class="decreasefont followstyle">Follow</span></button>
+            <br>
+            <br>
+            <div id="showmargintop"><p class="bluefont">Show more</p></div>
+            </div>
+            </div>
+      
+      
+            <div class="padding-left" id="youmightlike2">
+            <p id="youmightlike">Nigeria trends</p>
+        
+            <p class="fontcolor musicmargtop">1. Music . Trending</p><br>
+            <p class="increasefont piccomargtop">#picccofmyhearth</p><br>
+            <p class="fontcolor piccomargtop">20.50k posts</p><br>
+
+            <p class="fontcolor musicmargtop">2 . Pop . Trending</p><br>
+            <p class="increasefont piccomargtop">Liam Payne</p><br>
+            <p class="fontcolor piccomargtop">2 . </p>
+      
+            </div>
+            <div class="padding-left" id="youmightlike3" style="box-shadow: 10px;">
+            <p id="youmightlike">Messages</p>
+            <img src="" alt="inbox icon" style="float: right; margin-top: -45px; margin-right: 15px;">
+            <img src="" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

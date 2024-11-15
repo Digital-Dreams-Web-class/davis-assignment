@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Portfolio
+        </title>
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            .Hero{
+                display: flex;
+                background-color: #0a001b;
+                width: auto;
+                font-family: sans-serif;
+            }
+            .HeroText{
+                color: white;
+                width: 60%;
+                padding-left: 30px;
+            }
+            .HeroImg{
+                width: 40%;
+            }
+            .heroImg{
+                /* width: ; */
+            }
+            #Welcome{
+                font-size: 120px;
+                /* font-family: sans-serif; */
+                padding-top: 150px;
+                font-weight: lighter;
+            }
+            #text{
+                font-size: 18px;
+            }
+
+            .Projects{
+                margin-top: 100px;
+            }
+            .projectText{
+                text-align: center;
+                
+            }
+            #ph, #pp {
+            }
+
+            #ph {
+                font-size: 50px;
+                padding-bottom: 15px;
+            }
+
+            #pp {
+                font-size: 20px;
+                /* padding-top: 15px; */
+            }
+            .projects{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                padding: 20px 0px 0px 35px;
+                width: 100%;
+                margin: auto;
+            }
+            .projectCard{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border: 1px solid rgba(43, 105, 251, 0.12);
+                border-radius: 2rem;
+                width: 400px;
+                padding: 1rem;
+                position: relative;
+                margin-bottom: 40px;
+            }
+            .projectContent{
+                margin: 0px 0px 10px;
+            }
+            #pHead{
+                margin-bottom: 15px;
+            }
+            #pText{
+                text-align: left;
+            }
+            #pImg{
+                width: 100%;
+                border-radius: 20px;
+                object-fit: fill;
+                margin-bottom: 15px;
+                /* align-self: center; */
+                height: 250px;
+                
+            }
+            .icons{
+                margin-top: 15px;
+            }
+            .pIcon{
+                object-fit: fill; 
+                width: 10%;
+            }
+            .svg-curve{
+                fill: #0a001b; 
+            }
+            #to{
+                width: 30px;
+                height: 25px;
+                background-color: rgba(red, green, blue, alpha);
+            }
+            footer{
+
+                justify-content: center;
+                align-items: center;
+                background: #0a001b;
+                margin-top: 0px;
+                height: 200px;
+                display: flex;
+                margin-left: none;
+                width: auto;
+            }
+            .footerinner{
+                padding-top: 0px;
+                width: auto;
+                height: 250px;
+            }
+            .sav{
+               width: auto;
+               height: auto;
+               margin-bottom: 0px;
+               display: block;
+            }
+            .footer-copy{
+                color: white;
+                text-align: left;
+                
+         
+                
+            }
+            .footer-links{
+                object-fit: fill; 
+                width: 10%;
+            }
+            .pi{
+                object-fit: fill; 
+                width: 40%;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="Hero">
+                <div class="HeroText">
+                    <h1 id="Welcome">Welcome.</h1>
+                    <p id="text">
+                        My name is Ian Dunkerley, a front-end developer based in Torquay, Devon, UK. I have <br>
+                        worked on a wide range of front-end projects, from DJ applications to eCommerce <br>
+                        booking platforms, with a focus on creating clean, well-crafted interfaces that not only look <br> 
+                        great but also provide a seamless user experience. <br>
+                    </p>
+                </div>
+                <div class="HeroImg">
+                    <img src="hero_setup.avif" class="heroImg">
+                </div>
+            </div>
+            <svg class="svg-curve" viewBox="0 0 1440 79" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-100 79C-100 79 218.416 23.165 693.5 23.165C1168.58 23.165 1487 79 1487 79V0H-100V79Z"></path>
+              </svg>
+            <div class="Projects">
+                <div class="projectText">
+                    <h1 id="ph">My Work</h1>
+                    <p id="pp"> A collection of projects I've worked on</p>
+                </div>
+                <div class="projects">
+                    <div class="projectCard">
+                        <div class="projectContent">
+                            <img src="Dorum.jpg" id="pImg">
+                            <h1 id="pHead">Domposer</h1>
+                            <p id="pText">
+                                Domposer is a website builder which has a UI that allows you to quickly add 
+                                and rearrange HTML and CSS, upload and download created projects and files, login
+                                to save up to 5 projects and can be installed as a progressive web application. 
+                                The stack is Laravel for the backend/API's and vanilla JS for the frontend. 
+                                The Github repository for this is private at the moment.
+                            </p>
+                            <div class="icons">
+                                <img src="internet.png" class="pIcon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectContent">
+                            <img src="Ipsum.jpg" id="pImg">
+                            <h1 id="pHead">Bay.js</h1>
+                            <p id="pText">
+                                An easy to use, lightweight library for web-components. 
+                                It doesn't need a build step but can be included in a build step if you want to. 
+                                It's a great way to create reusable components for your projects. 
+                                It's available as a NPM package and doesn't use any dependencies and 
+                                is 11kb minified. It also doesn't use eval or new Function so can be used in 
+                                strict CSP policies without a build step.
+                            </p>
+                            <div class="icons">
+                                <img src="internet.png" class="pIcon">
+                                <img src="github.png" class="pIcon">
+                                <img src="npm-3.png" class="pIcon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectContent">
+                            <img src="Mingsum.jpg" id="pImg">
+                            <h1 id="pHead">Cookiemunch</h1>
+                            <p id="pText">
+                                A simple, customizable, minimal setup cookie plugin that allows your users 
+                                to select which cookies to accept or decline. This was created with vanilla JS, 
+                                SCSS and Parcel Bundler and is available as a NPM package and the git repository 
+                                makes any type of customization to code and themes possible.
+                            </p>
+                            <div class="icons">
+                                <img src="internet.png" class="pIcon">
+                                <img src="github.png" class="pIcon">
+                                <img src="npm-3.png" class="pIcon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectContent">
+                            <img src="Lorem.jpg" id="pImg">
+                            <h1 id="pHead">Screen time converter</h1>
+                            <p id="pText">
+                                Count the time your children spend on activities like homework, 
+                                chores and exercise and convert it into screen time. I created this with Vue.js 
+                                and the Howlr library to add the interactive clock sounds. It can be installed as 
+                                a progressive web application. The git repository for this one is private at the moment.
+                            </p>
+                            <div class="icons">
+                                <img src="internet.png" class="pIcon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectContent">
+                            <img src="noreplace.jpg" id="pImg" >
+                            <h1 id="pHead">inline.svg</h1>
+                            <p id="pText">
+                                This is a NPM package that takes an SVG file and renders it as an 
+                                inline SVG to the DOM and can also render HTML files too. You can 
+                                also pass data to it that renders where it's specified inside double 
+                                curly braces. I created this to solve problems with some frameworks and 
+                                bundlers when using inline SVG files and to keep code cleaner and easier to read.
+                            </p>
+                            <div class="icons">
+                                <img src="internet.png" class="pIcon">
+                                <img src="github.png" class="pIcon">
+                                <img src="npm-3.png" class="pIcon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <div class="projectContent">
+                            <img src="work.jpg" id="pImg">
+                            <h1 id="pHead">PCDJ</h1>
+                            <p id="pText">
+                                I've had the opportunity to work with PCDJ DJ software, 
+                                where I contributed to the design and skinning for various products in 
+                                their range, including DEX-3, DEX-3 RE DJ software, LYRX karaoke software, 
+                                and RED Mobile 3 DJ software. I also had a hand in refining the PCDJ logo, 
+                                ensuring it aligns with the overall aesthetic of the brand.
+                            </p>
+                            <div class="icons">
+                                <img src="internet.png" class="pIcon">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footerinner">
+            <svg class="svg-curve, sav" viewBox="0 0 1440 79" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-100 0C-100 0 218.416 55.835 693.5 55.835C1168.58 55.835 1487 0 1487 0V79H-100V0Z"
+                ></path>
+              </svg>
+              <footer>
+                <div > 
+                    <div class="footer-copy" >
+                        © ${new Date().getFullYear()} dunks1980.com
+                      </div>
+                      <div class="footer-links">
+                        <a target="_blank" href="#">
+                        <img src="internet.png" alt="" class="pi">
+                        </a>
+                        <a target="_blank" href="#">
+                        <img src="github 2.png" alt="" class="pi">
+                        </a>
+                        <a target="_blank" href="#">
+                        <img src="npm-3.png" alt="" class="pi">
+                        </a>
+                        <a aria-label="npm" rel="noopener" target="_blank" href="https://www.npmjs.com/~dunks1980">
+                          <NPMSVG></NPMSVG>
+                        </a>
+                      </div>
+                </div>
+              </footer>
+            </div>
+        </div>
+    </body>
+</html>
+ <!--to join this conversation on GitHub. Already have an account? Sign in to comment
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information-->
