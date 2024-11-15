@@ -5,7 +5,7 @@ https://davis-html.netlify.app/index4 link to assignment.
 
 
 
-- Before you start submit 
+- Before you start your Assignment submission 
 - Add this repo as a remote 
 - git pull from this repo
 - create your own branch 
